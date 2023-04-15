@@ -6,7 +6,7 @@
   puppeteer.use(StealthPlugin())
 
 
-  let LINKTIKTOK = "https://www.tiktok.com/@anonsecteaminc/video/6993753284267740443"
+  let LINKTIKTOK = "https://www.tiktok.com/@aditaher98/video/7095143413225360667"
   let cookies = [{'url': 'https://zefoy.com',"name":"PHPSESSID","value":GenerateRandomId(26)}]
   async function scrape(baseUrl){
     console.log("opening browser")
